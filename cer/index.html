@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Management App</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="mt-5">Task Management App</h1>
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">Task Management App</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tasks</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="task-details.html">Task Details</a>
+                                <a class="dropdown-item" href="tasks.html">View Tasks</a>
+                                <a class="dropdown-item" href="create-task.html">Create Tasks</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="jumbotron mt-4">
+            <h2 class="display-4">Welcome to the Task Management App</h2>
+            <p class="lead">Your go-to hub for seamless task creation, real-time viewing, and comprehensive task detail review.</p>
+            <p>Efficiently manage tasks, set and monitor deadlines, and maintain streamlined organization for optimal productivity.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </section>
+<!-- 
+        <section class="card-deck">
+            <div class="card">
+                <div class="card-body"></div>
+            </div>
+            <div class="card">
+                <div class="card-body"></div>
+            </div>
+            <div class="card">
+                <div class="card-body"></div>
+            </div>
+        </section>
+
+        <section class="card-deck mt-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Create Tasks</h5>
+                    <p>Easily create new tasks and set deadlines to stay on top of your work.</p>
+                    <a href="create-task.html" class="btn btn-primary">Create Task</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Tasks</h5>
+                    <p>View all your tasks in one place and track your progress.</p>
+                    <a href="tasks.html" class="btn btn-primary">View Tasks</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Task Details</h5>
+                    <p>Edit or delete tasks to keep your task list up to date.</p>
+                    <a href="task-details.html" class="btn btn-primary">Task Details</a>
+                </div>
+            </div>
+        </section> -->
+
+        <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item">
+                    <div class="card mb-4 mx-auto" style="width: 22rem;">
+                        <img src="media/it_service.webp" class="card-img-top" alt="IT services">
+                        <div class="card-body">
+                            <h5 class="card-title">IT Services</h5>
+                            <p class="card-text">IT Services help with daily IT such as help desk, backup, disaster recovery or infrastructure services.</p>
+                        </div>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+              
+              <!-- Task 2 - added carousel for a different visual feature/appeal -->
+                <div class="carousel-item">
+                    <div class="card mb-4 mx-auto" style="width: 20rem;">
+                        <img src="media/security.jpg" class="card-img-top" alt="Cyber Security">
+                        <div class="card-body">
+                            <h5 class="card-title">Cyber Security</h5>
+                            <p class="card-text">Cybersecurity provides your business with technology to enable a new level of cyber resilience and protection cyber attacks.</p>
+                        </div>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+              
+              <!-- Task 2 - added carousel for a different visual feature/appeal -->
+                <div class="carousel-item active">
+                    <div class="card mb-4 mx-auto" style="width: 22rem;">
+                        <img src="media/cloud.jpg" class="card-img-top" alt="Cloud Service">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Services</h5>
+                            <p class="card-text">Tech Solutions provides a full suite of cloud solutions, from Office 365 backup and Disaster Recovery as a Service, to hybrid cloud solutions andIT services</p>
+                        </div>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            
+            <!-- Task 3 - added button previous button for cards in carousel and hide the wording to leave a minimilistic visual -->    
+            <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <!-- Task 3 - added button next button for cards in carousel and hide the wording to leave a minimilistic visual--> 
+            <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+              
+              
+              <section id="About" class="py-5 mb-5" style="background-color: #d9dbdf;">
+                <div class="container">
+                  <div class="row">
+
+        <footer class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <p>&copy; 2024 Task Management App</p>
+                </div>
+                <div class="col">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="register.html" class="nav-link">Register</a></li>
+                        <li><a href="login.html" class="nav-link">Login</a></li>
+                        <li><a href="tasks.html" class="nav-link">Tasks</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

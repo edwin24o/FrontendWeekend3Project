@@ -1,0 +1,121 @@
+
+body {
+    background-color: #181818; /* Deep dark grey for a modern feel */
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #e5e5e5; /* Soft off-white text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container .jumbotron {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styling */
+.navbar, .footer {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.navbar-nav .nav-link {
+    color: #807f7f; 
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+/* Heading and Titles */
+h1 {
+    font-size: 55px;
+    font-weight: 300;
+    color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+
+.jumbotron {
+    background-color: #242424;
+    padding: 40px;
+    border-radius: 10px;
+    color: #d9d9d9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #cccccc; /
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #30307c; 
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #005ecb; 
+}
+
+
+.card-deck .card {
+    background-color: #242424; 
+    border: none;
+    color: #e5e5e5;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.card-text {
+    color: #403f3f; 
+}
+
+
+.footer {
+    padding: 30px 0;
+    margin-top: 60px;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+.footer p, .footer h5, .footer a {
+    font-size: 14px;
+    color: #dad5d5; 
+}
+
+.footer a:hover {
+    color: #ffffff; 
+}
+
+
+a {
+    text-decoration: none;
+    color: #bbbbbb;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
